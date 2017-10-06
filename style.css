@@ -19,19 +19,25 @@ p{
 }
 .racer_table td {
   background-color: white;
-  height: 90px;
+  height: 140px;
   width: 64px;
   text-align: center;
 }
 
-.racer_table td.active {
-  background-image: url("yoshiDude.png");
-  width: 11.45%;
-}
 
 .reset{
     text-align: center;
     margin-top: 5%;
+}
 
+.yoshi{
+  width: 70%;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11, #box12{
+  background-image: url("");
+  width: 11.45%;
+  margin: 1%;
+  background-repeat: no-repeat;
 }
 

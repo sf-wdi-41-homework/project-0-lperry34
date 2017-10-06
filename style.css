@@ -34,7 +34,23 @@ p{
   width: 70%;
 }
 
-#box1, #box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11, #box12{
+.active{
+  background-image: url("yoshiDude.png");
+  width: 11.45%;
+  margin: 1%;
+  background-repeat: no-repeat;
+}
+
+
+.active1{
+  background-image: url("yoshiDude.png");
+  width: 11.45%;
+  margin: 1%;
+  background-repeat: no-repeat;
+}
+
+
+#pbox1, #pbox2, #pbox3, #pbox4, #pbox5, #pbox6, #pbox7, #pbox8, #pbox9, #pbox10, #pbox11, #pbox12{
   background-image: url("");
   width: 11.45%;
   margin: 1%;

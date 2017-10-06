@@ -22,6 +22,7 @@ $(document).ready(function() {
 
         if (players[0].position === 9) { //takes incremented position and creates win statement
             alert("player 1 has won!")
+            $('#1score').append("1");
         }
 
     });
@@ -37,12 +38,17 @@ $(document).ready(function() {
     $(document).keydown(function(keyPressed) {
         if (keyPressed.keyCode == 68) {
             movePlayer1();
-        }                                                   // all the same thing for player 2
+        }                                                // all the same thing for player 2
 
         if (players[1].position === 9) {
-            alert("player 2 has won!")
+            alert("player 2 has won!");
+            $('#score').append("1");
         }
 
     });
+
+
+
+
 
 });

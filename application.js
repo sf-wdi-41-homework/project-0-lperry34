@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     console.log("JS is working");
-    
+
     var players = [{
         position: 1,
     }, {
@@ -17,7 +17,7 @@ $(document).ready(function() {
     }
 
     $(document).keydown(function(keyPressed) { // runs the function everytime the key is pressed
-        if (keyPressed.keyCode == 39) {
+        if (keyPressed.keyCode == 39 && canPressKey === true) {
             movePlayer();
         }
 
@@ -34,7 +34,7 @@ $(document).ready(function() {
         console.log(players[1].position);
     }
     $(document).keydown(function(keyPressed) {
-        if (keyPressed.keyCode == 68) {
+        if (keyPressed.keyCode == 68 && canPressKey === true) {
             movePlayer1();
         } // all the same thing for player 2
 
@@ -58,9 +58,10 @@ $(document).ready(function() {
 
 
     //timer
-    var count = 10;
+    var count = 5;
     var go = "GO";
     var counter = setInterval(timer, 1000);
+    var canPressKey = false;
 
     function timer() {
         count = count - 1;
@@ -72,6 +73,7 @@ $(document).ready(function() {
         document.getElementById("timer").innerHTML = count;
         if (count === 0) {
             document.getElementById("timer").innerHTML = go;
+            canPressKey = true;
         }
 
     }

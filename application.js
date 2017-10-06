@@ -22,11 +22,10 @@ $(document).ready(function() {
 
         if (players[0].position === 9) { //takes incremented position and creates win statement
             alert("player 1 has won!")
-            $('#1score').append("1");
+            $('#score').append("Player 1 Won! Player 2 Is Horrible");
         }
 
     });
-
 
     // player 2
 
@@ -42,12 +41,25 @@ $(document).ready(function() {
 
         if (players[1].position === 9) {
             alert("player 2 has won!");
-            $('#score').append("1");
+            $('#score').append("Player 2 Won! Player 1 Is Horrible");
         }
 
     });
 
+    $(document).keydown(function(wrongWay) {
+        if (wrongWay.keyCode == 37) {
+            alert("Wrong Way Fool");
+          }
+        });  
 
+        $(document).keydown(function(wrongWay2) {
+        if (wrongWay2.keyCode == 65) {
+            alert("Wrong Way Fool");
+          }
+        });     
+
+
+        
 
 
 

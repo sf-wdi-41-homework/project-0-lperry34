@@ -1,54 +1,54 @@
 <!doctype html>
 <html>
-<head>
-  <title>Levi Perry's Racing Game</title>
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-  <script src="application.js"></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
-
-</head>
-<body>
-<h1>Levi Perry's Racing Game</h1>
-<div class="description">
-    <p>
-Player one press the "Right Arrow Key" key to move and player 2 press the "D" key to move
-</p>
-</div>
-<table class="racer_table">
-  <tr>
-    <td class="active"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>Finish</td>
-    
-    
-  </tr>
-  <tr>
-   <td class="active1"></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td>Line</td>   
-  </tr>
-</table>
-<h1 id="score"></h1>
-
-
-
-<form class="reset">
-<input class="startOver" type="submit" value="Restart The Game">
-    </form>
-</body>
+   <head>
+      <title>Levi Perry's Racing Game</title>
+      <script
+         src="https://code.jquery.com/jquery-3.2.1.min.js"
+         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+         crossorigin="anonymous"></script>
+      <script src="application.js"></script>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+   </head>
+   <body>
+      <div class="header">
+         <h1>Levi Perry's Racing Game</h1>
+         <div class="description">
+            <p>
+               Player one press the "Right Arrow" key to move and player 2 press the "D" key to move
+            </p>
+         </div>
+      </div>
+      <div id="timerThing">
+         <span id="timer"></span>
+      </div>
+      </div>
+      <table class="racer_table">
+         <tr>
+            <td class="active"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Finish</td>
+         </tr>
+         <tr>
+            <td class="active1"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Line</td>
+         </tr>
+      </table>
+      <h1 id="score"></h1>
+      <div id="restart">
+         <a class="button" href="index.html">Restart The Game</a>
+      </div>
+   </body>

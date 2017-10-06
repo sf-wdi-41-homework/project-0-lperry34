@@ -1,57 +1,60 @@
 body {
-  font-family: 'Helvetica', sans-serif;
-  background-color: #BDF3F9;
-  width: 100%;
+    font-family: 'Helvetica', sans-serif;
+    background-color: #BDF3F9;
+    width: 100%;
 }
-
 h1 {
-  text-align: center;
-}
-
-p{
     text-align: center;
 }
-
+p {
+    text-align: center;
+}
 .racer_table {
-  width: 100%;
-  margin: 0 auto;
-  border: solid 3px;
+    width: 100%;
+    margin: 0 auto;
+    border: solid 3px;
 }
 .racer_table td {
-  background-color: white;
-  height: 140px;
-  width: 64px;
-  text-align: center;
+    background-color: white;
+    height: 140px;
+    width: 64px;
+    text-align: center;
 }
-
-
-.reset{
+.reset {
     text-align: center;
     margin-top: 5%;
 }
-
-.yoshi{
-  width: 70%;
+.yoshi {
+    width: 70%;
 }
-
-.active{
-  background-image: url("yoshiDude.png");
-  width: 11.45%;
-  margin: 1%;
-  background-repeat: no-repeat;
+.active {
+    background-image: url("yoshiDude.png");
+    width: 11.45%;
+    margin: 1%;
+    background-repeat: no-repeat;
 }
-
-
-.active1{
-  background-image: url("yoshiDude.png");
-  width: 11.45%;
-  margin: 1%;
-  background-repeat: no-repeat;
+.active1 {
+    background-image: url("yoshiDude.png");
+    width: 11.45%;
+    margin: 1%;
+    background-repeat: no-repeat;
 }
-
-
-
-
-
-
-
+#timerThing {
+    text-align: center;
+}
+#timer {
+    font-size: 70px;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#restart {
+    text-align: center;
+}
